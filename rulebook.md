@@ -500,6 +500,7 @@ $(function () {
       <li class="variants"> Show other official game variants</li>
       <li class="help"> Show help</li>
       <li class="highlight"> Highlight modified rules</li>
+      <li class="extradeath">Extra death conditions</li>
       <li>Ending:
         <ul>
           <li class="kobol">Kobol</li>
