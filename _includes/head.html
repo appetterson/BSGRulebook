@@ -15,8 +15,8 @@
   <script>
     if (navigator.serviceWorker) {
       navigator.serviceWorker.register (
-        'pwa/sw.js',
-        {scope: '/'}
+        '{{ site.baseurl }}/pwa/sw.js',
+        {scope: '{{ site.baseurl }}'}
       )
     }
   </script>
