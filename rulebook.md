@@ -2079,7 +2079,7 @@ Unless otherwise indicated, whenever a pilot stops piloting, their viper is retu
 
 #### First steps
 
-If your character is <span class="noxetradeath">executed</span><span class="extradeath">killed, either by execution or by dice roll</span>, discard your entire hand of Skill Cards, as well as any Quorum cards <em>attached to your character</em> (these are cards like “Assign Vice President”, not the <em>hand</em> of Quorum cards)<span class="daybreak"><span class="noextradeath">, any miracle tokens</span>, and any mutiny cards</span>.<span class="extradeath"> If you were executed also discard any miracle tokens.</span>
+If your character is <span class="noextradeath">executed</span><span class="extradeath">killed, either by execution or by dice roll</span>, discard your entire hand of Skill Cards, as well as any Quorum cards <em>attached to your character</em> (these are cards like “Assign Vice President”, not the <em>hand</em> of Quorum cards)<span class="daybreak"><span class="noextradeath">, any miracle tokens</span>, and any mutiny cards</span>.<span class="extradeath"> If you were executed also discard any miracle tokens.</span>
 
 <p class="exodusloyalty">If you were the current player when you <span class="noextradeath">were executed</span><span class="extradeath">died</span>, resolve the <span class="noextradeath">execution</span><span class="extradeath">death</span> and then skip your remaining move, action, and Crisis steps. <span class="allies">If an Ally executed you, replace the Ally <a href="#ally-replaced-with-player-or-location-damaged">as if it were in a location that got damaged</a> after your <span class="noextradeath">execution</span><span class="extradeath">death</span> is finished.</span></p>
 
