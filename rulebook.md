@@ -203,13 +203,9 @@ function flipSwitches () {
   if (readCheckbox('#pegasus') || readCheckbox('#exodus')) {
     showThese.push('execution');
     hideThese.push('noexecution');
-    showThese.push('extradeath');
-    hideThese.push('noextradeath');
   } else {
     showThese.push('noexecution');
     hideThese.push('execution');
-    showThese.push('noextradeath');
-    hideThese.push('extradeath');
   }
 
   // Exodus loyalty if either:
@@ -571,6 +567,12 @@ Some game mechanics depend on the Exodus version, like Personal Goal cards and s
 - Exodus rules, then at distance 7, all human players roll the die. The lowest receives the final Loyalty card, guaranteeing that the last Cylon gets out at some point.
 - Pegasus rules, but a new human character must draw from a special deck that is half “Personal Goal”/”Final Five” cards, half normal “Not A Cylon” cards. They’ll still be a guaranteed human, but dealing with the special Loyalty card can penalize the humans for killing an innocent.
 - Exodus rules, then at the end of the game, if the remaining card was a Cylon, deduct 1 from each resource as a handicap before declaring a human victory.
+
+### House rules
+
+#### Extra death conditions
+
+Some feel that the extra loyalty card can give too much of an advantage to the human players by complete chance if the cylon player card is face down
 
 </div>
 
@@ -2074,7 +2076,7 @@ Unless otherwise indicated, whenever a pilot stops piloting, their viper is retu
 
 #### First steps
 
-If your character is executed, discard your entire hand of Skill Cards, as well as any Quorum cards <em>attached to your character</em> (these are cards like “Assign Vice President”, not the <em>hand</em> of Quorum cards)<span class="daybreak">, any Mutiny cards, and any miracle tokens</span>. 
+If your character is <span class="noxetradeath">executed</span><span class="extradeath">killed, either by execution or by dice roll</span>, discard your entire hand of Skill Cards, as well as any Quorum cards <em>attached to your character</em> (these are cards like “Assign Vice President”, not the <em>hand</em> of Quorum cards)<span class="daybreak"><span class="noextradeath">, any miracle tokens</span>, and any mutiny cards</span>.<span class="extradeath"> If you were executed also discard any miracle tokens.</span>
 
 <p class="exodusloyalty">If you were the current player when you were executed, resolve the execution and then skip your remaining move, action, and Crisis steps. <span class="allies">If an Ally executed you, replace the Ally <a href="#ally-replaced-with-player-or-location-damaged">as if it were in a location that got damaged</a> after your execution is finished.</span></p>
 
@@ -2090,7 +2092,8 @@ If you are <span class="cylonleader">a Cylon Leader or </span>a Cylon who has al
 
 <ol>
   <li>Reveal <em>all</em> your Loyalty cards, showing that none are Cylon cards. <span class="finalfive">For “Final Five” cards, resolve the text for execution.</span></li>
-  <li>The fleet loses 1 morale. (If this causes Dee to be executed, resolve her execution after this one is finished.)</li>
+  <li class="noextradeath">The fleet loses 1 morale. (If this causes Dee to be executed, resolve her execution after this one is finished.)</li>
+  <li class="extradeath">If you were executed the fleet loses 1 morale. (If this causes Dee to be executed, resolve her execution after this one is finished.)</li>
   <li>Return your character and token(s) to the box, removing them from the game. <span class="allies">Discard any Trauma tokens.</span></li>
   <li class="exodusloyalty">Discard all of your loyalty cards.</li>
   <li class="noexodusloyalty">If you were Boomer, and the Sleeper Agent phase hasn’t happened yet, draw 1 new Loyalty card.</li>
@@ -2100,6 +2103,7 @@ If you are <span class="cylonleader">a Cylon Leader or </span>a Cylon who has al
   <li>Distribute any titles you had when you were executed to the first in the <a href="#lines-of-succession">line of succession</a>, including your new character. Titles held by other players do not change, even if your new character is higher in the line of succession.</li>
   <li class="daybreak">If the executed character was the Mutineer, your new character receives the Mutineer card again, following the instructions on the card as if they just received it face up.</li>
   <li class="allies">Draw 3 new Trauma tokens. <span class="ioniannebula">If a “disaster” token is drawn, set it aside and draw a new one to replace it, then return the “disaster” token to the pool, just like at the start of the game.</span></li>
+  <li class="extradeath">If you were not executed draw a full hand of cards.</li>
 </ol>
   
 If your new character is one of these, there are some additional rules and clarifications:
