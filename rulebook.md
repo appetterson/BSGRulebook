@@ -572,7 +572,9 @@ Some game mechanics depend on the Exodus version, like Personal Goal cards and s
 
 #### Extra death conditions
 
-Some feel that the extra loyalty card can give too much of an advantage to the human players by complete chance if the cylon player card is face down
+Some feel that the extra loyalty card from exodus can give too much of an advantage to the human players by complete chance if the cylon player card is face down. This variant attempts to address this by adding extra conditions in which a character may die, balancing this out by allowing the new character to draw a hand of cards, and not losing any morale for the death. This means the extra card will hopefully cycle more often, and there is a lesser chance of there being two cylens.
+
+This variant can also be activated when there is no extra loyalty card, but it is not reccomended in this case.
 
 </div>
 
