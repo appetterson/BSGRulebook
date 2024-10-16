@@ -1,0 +1,23 @@
+{
+  "name": "Unified Battlestar Galactica Rulebook",
+  "short_name": "BSGRulebook",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "Scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+        "src": "/images/icons/190.png",
+        "type": "image/png",
+        "sizes": "190x190"
+    },
+    {
+        "src": "/images/icons/512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+    }
+  ],
+  "splash_pages": null
+}
