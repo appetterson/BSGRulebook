@@ -9,12 +9,12 @@
   "start_url": "/BSGRulebook/rulebook.html",
   "icons": [
     {
-        "src": "/images/icons/190.png",
+        "src": "/BSGRulebook/images/icons/190.png",
         "type": "image/png",
         "sizes": "190x190"
     },
     {
-        "src": "/images/icons/512.png",
+        "src": "/BSGRulebook/images/icons/512.png",
         "type": "image/png",
         "sizes": "512x512"
     }
