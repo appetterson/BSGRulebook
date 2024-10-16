@@ -13,7 +13,7 @@
   {% if page.toc%}
   <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
   <script src="{{ site.baseurl }}/js/toc.js"></script>
-  <script type="text/javascript" src="{{ "/js/main.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+  <script src="{{ "/js/main.js" | prepend: site.baseurl | prepend: site.url }}"></script>
   {% unless page.toc_stop_autofire %}
   <script type="text/javascript">
   $(document).ready(function() {

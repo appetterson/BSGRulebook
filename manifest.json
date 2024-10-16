@@ -6,7 +6,7 @@
   "display": "standalone",
   "orientation": "portrait",
   "Scope": "/BSGRulebook",
-  "start_url": "/BSGRulebook",
+  "start_url": "/BSGRulebook/rulebook.html",
   "icons": [
     {
         "src": "/images/icons/190.png",
