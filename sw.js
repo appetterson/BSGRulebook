@@ -139,27 +139,19 @@ self.__precacheManifest = [
   },
   {
     "url": "js/main.js",
-    "revision": "58fea82035d39afe8de867ff7743f7bc"
+    "revision": "7a972d4746982f825232a8b6d2db0869"
   },
   {
     "url": "js/toc.js",
     "revision": "f124ef95d6da23f783e5af613ec0c8e3"
   },
   {
-    "url": "manifest.json",
-    "revision": "e3bab89b394c0be3ad2f36e927743863"
-  },
-  {
-    "url": "README.md",
-    "revision": "3e08c58994dd8ca63f08a892842d78f7"
-  },
-  {
     "url": "rulebook.html",
-    "revision": "ccbb1d0167e06027e10c77c42419ce62"
+    "revision": "7e02afebb6fa83bba55a644df2ec6400"
   },
   {
     "url": "workbox-config.js",
-    "revision": "08caffeafbdc1bd1155bdd5cec3326be"
+    "revision": "1590585a560f61ef057410dc4e0d9271"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
